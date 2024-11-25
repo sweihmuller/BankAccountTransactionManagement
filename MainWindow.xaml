@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankAccountTransactionManagement"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="493" Width="656">
     <Grid>
-        
+        <Rectangle HorizontalAlignment="Center"HorizontalAlignment="Center" Height="114" Stroke="#FFBBB7B7" VerticalAlignment="Top" Width="617" Opacity="0.705" Margin="0,10,0,0"Margin="0,133,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="118" Stroke="#FFBBB7B7" VerticalAlignment="Top" Width="616" Opacity="0.705" Margin="0,10,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="213" Stroke="#FFBBB7B7" VerticalAlignment="Top" Width="615" Opacity="0.705" Margin="0,251,0,0"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="33,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107" Height="19"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Margin="157,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" Height="19"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Margin="278,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Height="19"/>
+        <TextBox x:Name="txtPhoneNumber" HorizontalAlignment="Left" Margin="398,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Height="19"/>
+        <TextBox x:Name="txtOpeningBalance" HorizontalAlignment="Left" Margin="520,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Height="19"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="33,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="157,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="278,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Phone number" HorizontalAlignment="Left" Margin="398,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Opening Balance" HorizontalAlignment="Left" Margin="520,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnCreateAccount" Content="Create Account" HorizontalAlignment="Left" Margin="33,87,0,0" VerticalAlignment="Top" Height="28"/>
+        <Button x:Name="btnNew" Content="New" HorizontalAlignment="Left" Margin="157,87,0,0" VerticalAlignment="Top" Height="28" Width="70"/>
+        <Button x:Name="btnDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="44,176,0,0" VerticalAlignment="Top" Height="43" Width="96"/>
+        <Button x:Name="btnWithdraw" Content="Withdraw" HorizontalAlignment="Left" Margin="192,176,0,0" VerticalAlignment="Top" Height="43" Width="96"/>
+        <Button x:Name="btnCheckBalance" Content="Check Balance" HorizontalAlignment="Left" Margin="346,176,0,0" VerticalAlignment="Top" Height="43" Width="85"/>
+        <Button x:Name="btnDetails" Content="See Details" HorizontalAlignment="Left" Margin="487,176,0,0" VerticalAlignment="Top" Height="43" Width="85"/>
+        <ListBox HorizontalAlignment="Left" Height="170" Margin="44,282,0,0" VerticalAlignment="Top" Width="274"/>
+        <ListBox HorizontalAlignment="Left" Height="175" Margin="346,277,0,0" VerticalAlignment="Top" Width="274"/>
+        <Label Content="Deposit" HorizontalAlignment="Left" Margin="142,247,0,0" VerticalAlignment="Top"/>
+        <Label Content="Withdrawal" HorizontalAlignment="Left" Margin="466,247,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
